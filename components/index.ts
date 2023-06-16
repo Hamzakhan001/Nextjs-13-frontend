@@ -1,5 +1,6 @@
-import CustonButton from "./CustonButton";
+import CustomButton from "./CustomButton";
+import Hero from "./Hero";
 
 
 
-export {CustonButton}
+export {CustomButton,Hero}
