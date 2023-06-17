@@ -1,5 +1,6 @@
 "use client";
 import React from 'react';
+import Image from 'next/image'
 import {CustomButton} from './index'
 
 function Hero() {
@@ -21,7 +22,9 @@ function Hero() {
 		 </div>
 		 <div className='hero_image-container'>
 			<div className='hero_image'>
-
+				<Image src="../public/hero.png" alt="hero"
+				fill className="obtject-contain" />
+				<div className='hero__image-overlay'></div>
 			</div>
 
 		 </div>
